@@ -1,0 +1,18 @@
+Ryan Moriarty
+CSE 470 Project 2
+Novemberr 2, 2009
+
+This program starts with the following parameters:
+Overview mode
+Camera navigation
+Design materials
+Textures on
+Texture blending
+Per-vertex normals
+
+Per-vertex normals are not calculated initially for some complex objects.
+The basic cube and cylinder structures have vertex normals, but the complex 
+meshes calculate per-vertex normals gradually as the program runs, one 
+normal per drawing. When all normals are calculated, the model will
+then be rendered using per-vertex normals.
+
